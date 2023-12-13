@@ -2,6 +2,16 @@
 <html>
 <head>
     <title>Activity List</title>
+    <script src="script.js"></script> <!-- Include your script file -->
+    <script>
+        window.onload = function() {
+            // Check for the authentication cookie upon loading the activitylist.html page
+            if (document.cookie.indexOf("authenticated=true") === -1) {
+                // Redirect to the index.html page if the authentication cookie is absent
+                window.location.href = "index.html";
+            }
+        };
+    </script>
 </head>
 <body>
     <h1>Welcome to the Activity List Page!</h1>
