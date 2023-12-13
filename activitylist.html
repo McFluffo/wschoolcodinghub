@@ -5,13 +5,21 @@
     <style>
         body {
             background-color: black;
-            color: White; 
+            color: white;
         }
-        p .red-text {
-            color: red;
+        .websites {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr); /* Three columns */
+            grid-gap: 10px; /* Gap between grid items */
         }
-        p .blue-text {
-            color: blue;
+        .website {
+            background-color: #333; /* Background color for each website box */
+            padding: 10px; /* Padding for each website box */
+            text-align: center;
+        }
+        .website.blue {
+            background-color: blue; /* Blue background for specific website */
+            color: white; /* Text color for specific website */
         }
     </style>
     <script src="script.js"></script> <!-- Include your script file -->
@@ -28,5 +36,17 @@
 <body>
     <h1>ALL CURRENTLY UNR3STRICT3D W3BS1TE$</h1>
     <p><span class="red-text">Red URLs are made by me,</span> <span class="blue-text">Blue were found.</span></p>
+    <div class="websites">
+        <div class="website blue">rizzz.netlify.app</div>
+        <div class="website">empty</div>
+        <div class="website">empty</div>
+        <div class="website">empty</div>
+        <div class="website">empty</div>
+        <div class="website">empty</div>
+        <div class="website">empty</div>
+        <div class="website">empty</div>
+        <div class="website">empty</div>
+    </div>
 </body>
 </html>
+
