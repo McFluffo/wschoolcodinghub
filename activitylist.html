@@ -9,25 +9,28 @@
         }
         .websites {
             display: grid;
-            grid-template-columns: repeat(3, 1fr); /* Three columns */
-            grid-gap: 10px; /* Gap between grid items */
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 10px;
         }
         .website {
-            background-color: #333; /* Background color for each website box */
-            padding: 10px; /* Padding for each website box */
+            background-color: #333;
+            padding: 10px;
             text-align: center;
+            cursor: pointer;
         }
         .website.blue {
-            background-color: blue; /* Blue background for specific website */
-            color: white; /* Text color for specific website */
+            background-color: blue;
+            color: white;
+        }
+        .website a {
+            text-decoration: none;
+            color: inherit;
         }
     </style>
-    <script src="script.js"></script> <!-- Include your script file -->
+    <script src="script.js"></script>
     <script>
         window.onload = function() {
-            // Check for the authentication cookie upon loading the activitylist.html page
             if (document.cookie.indexOf("authenticated=true") === -1) {
-                // Redirect to the index.html page if the authentication cookie is absent
                 window.location.href = "index.html";
             }
         };
@@ -37,16 +40,12 @@
     <h1>ALL CURRENTLY UNR3STRICT3D W3BS1TE$</h1>
     <p><span class="red-text">Red URLs are made by me,</span> <span class="blue-text">Blue were found.</span></p>
     <div class="websites">
-        <div class="website blue">rizzz.netlify.app</div>
-        <div class="website">empty</div>
-        <div class="website">empty</div>
-        <div class="website">empty</div>
-        <div class="website">empty</div>
-        <div class="website">empty</div>
-        <div class="website">empty</div>
-        <div class="website">empty</div>
-        <div class="website">empty</div>
-    </div>
-</body>
-</html>
-
+        <div class="website blue"><a href="https://rizzz.netlify.app" target="_blank">rizzz.netlify.app</a></div>
+        <div class="website"><a href="#" onclick="return false;">empty</a></div>
+        <div class="website"><a href="#" onclick="return false;">empty</a></div>
+        <div class="website"><a href="#" onclick="return false;">empty</a></div>
+        <div class="website"><a href="#" onclick="return false;">empty</a></div>
+        <div class="website"><a href="#" onclick="return false;">empty</a></div>
+        <div class="website"><a href="#" onclick="return false;">empty</a></div>
+        <div class="website"><a href="#" onclick="return false;">empty</a></div>
+        <div class="website"><a href="#" onclick="return false;">empty</
