@@ -1,7 +1,7 @@
 function checkPassword() {
     var enteredPassword = document.getElementById("password").value;
     // List of correct passwords
-    var correctPasswords = ["ArizonaRoster$", "StinkyMonkey$"];
+    var correctPasswords = ["ArizonaRoster$", "StinkyMonkey$", "PerritoPachon"];
 
     var passwordMatch = false;
 
