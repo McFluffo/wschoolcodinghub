@@ -6,6 +6,7 @@
         body {
             background-color: black;
             color: white;
+            font-family: Arial, sans-serif;
         }
         .websites {
             display: grid;
@@ -26,6 +27,20 @@
             text-decoration: none;
             color: inherit;
         }
+        .news-section {
+            text-align: center;
+            margin-top: 30px;
+        }
+        .news-text {
+            margin-bottom: 10px;
+        }
+        .news-image {
+            display: inline-block;
+            vertical-align: middle;
+            max-width: 100px;
+            max-height: 100px;
+            margin-left: 10px;
+        }
     </style>
     <script src="script.js"></script>
     <script>
@@ -41,13 +56,12 @@
     <p><span class="red-text">Red URLs are made by me,</span> <span class="blue-text">Blue were found.</span></p>
     <div class="websites">
         <div class="website blue"><a href="https://rizzz.netlify.app" target="_blank">rizzz.netlify.app</a></div>
-        <div class="website"><a href="#" onclick="return false;">empty</a></div>
-        <div class="website"><a href="#" onclick="return false;">empty</a></div>
-        <div class="website"><a href="#" onclick="return false;">empty</a></div>
-        <div class="website"><a href="#" onclick="return false;">empty</a></div>
-        <div class="website"><a href="#" onclick="return false;">empty</a></div>
-        <div class="website"><a href="#" onclick="return false;">empty</a></div>
-        <div class="website"><a href="#" onclick="return false;">empty</a></div>
-        <div class="website"><a href="#" onclick="return false;">empty</
-
-            <H2>NEWS</H2>
+        <!-- Other website elements here -->
+    </div>
+    <div class="news-section">
+        <h2>NEWS</h2>
+        <p class="news-text">I'm working on a new site to put on the list, tell me any websites you may know.</p>
+        <img class="news-image" src="path_to_your_image.jpg" alt="Your Image">
+    </div>
+</body>
+</html>
