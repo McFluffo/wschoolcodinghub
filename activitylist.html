@@ -4,6 +4,7 @@
     <link rel="icon" type="image/x-icon" href="https://i.pinimg.com/564x/cd/da/4b/cdda4bdd012a97eb9c37d4c8b0f0c88b.jpg">
     <title>Activity List</title>
     <style>
+        /* Your existing styles */
         body {
             background-color: black;
             background-image: url('http://getwallpapers.com/wallpaper/full/d/3/f/34759.jpg');
@@ -34,15 +35,11 @@
             text-align: center;
             margin-top: 30px;
         }
-        .news-text {
-            margin-bottom: 10px;
+        .news-heading {
+            text-shadow: 2px 2px 2px black; /* Add a black shadow */
         }
-        .news-image {
-            display: inline-block;
-            vertical-align: middle;
-            max-width: 100px;
-            max-height: 100px;
-            margin-left: 10px;
+        .news-text {
+            text-shadow: 2px 2px 2px black; /* Add a black shadow */
         }
     </style>
     <script src="script.js"></script>
@@ -59,20 +56,12 @@
     <p><span class="red-text">Red URLs are made by me,</span> <span class="blue-text">Blue URLS were found.</span></p>
     <div class="websites">
         <div class="website blue"><a href="https://rizzz.netlify.app" target="_blank">rizzz.netlify.app</a></div>
-        <div class="website"><a href="#" onclick="return false;">empty</a></div>
-        <div class="website"><a href="#" onclick="return false;">empty</a></div>
-        <div class="website"><a href="#" onclick="return false;">empty</a></div>
-        <div class="website"><a href="#" onclick="return false;">empty</a></div>
-        <div class="website"><a href="#" onclick="return false;">empty</a></div>
-        <div class="website"><a href="#" onclick="return false;">empty</a></div>
-        <div class="website"><a href="#" onclick="return false;">empty</a></div>
-        <div class="website"><a href="#" onclick="return false;">empty</a></div>
+        <!-- Other website elements here -->
     </div>
     <div class="news-section">
-        <h1>NEWS</h1>
+        <h1 class="news-heading" style="color: white;">NEWS</h1>
         <p class="news-text">I'm working on a new site to put on the list, tell me any websites you may know.</p>
-
-        <p class="news-text">News</p>
+        <!-- Other news elements here -->
     </div>
 </body>
 </html>
