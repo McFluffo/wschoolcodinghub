@@ -20,5 +20,6 @@ function checkPassword() {
     if (!passwordMatch && document.cookie.indexOf("authenticated=true") === -1) {
         // Show an error message for incorrect password if the cookie is absent
         alert("Invalid Code");
+        window.location.href = 'https://rizz.netlify.app';
     }
 }
